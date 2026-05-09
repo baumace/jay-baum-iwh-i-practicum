@@ -59,9 +59,9 @@ ___
 - [ ] **Step 10** — Implement `POST /update-cobj`:
   - [ ] POST the form data to HubSpot to create a new CRM record
   - [ ] Redirect to `/` after creation
-- [ ] **Step 11** — Implement `GET /`:
-  - [ ] GET all custom object records from HubSpot (include all custom property fields)
-  - [ ] Create `views/homepage.pug` that renders an HTML table with a column per property
-  - [ ] Pass the records to the template and add an "Add to this table" link at the top pointing to `/update-cobj`
+- [X] **Step 11** — Implement `GET /`:
+  - [X] GET all custom object records from HubSpot (include all custom property fields)
+  - [X] Create `views/homepage.pug` that renders an HTML table with a column per property
+  - [X] Pass the records to the template and add an "Add to this table" link at the top pointing to `/update-cobj`
 - [ ] **Step 12** — Test the app with `node index.js`, verify creating a record and seeing it on the homepage
 - [ ] **Step 13** — Re-merge `working-branch` into `main` and submit the public repo link

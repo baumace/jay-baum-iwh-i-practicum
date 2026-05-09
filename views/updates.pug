@@ -14,5 +14,13 @@ html
         input(type="text" value="newCity" required)
         label(for="newDomainName") New company domain name
         input(type="text" value="newDomainName" required)
+        label(for="newAge") New company age
+        input(type="text" value="newAge" required)
+        label(for="newColor") New company color
+        input(type="text" value="newColor" required)
+        label(for="newStatus") New company name
+        select#newStatus(name='statuses' required)
+          option(value='alive') Alive
+          option(value='deceased') Deceased
         input(type="submit" value="Submit")
     a(href='/') Return to the homepage
