@@ -37,10 +37,10 @@ ___
     - [X] `crm.schemas.custom` (read & write)
     - [X] `crm.objects.custom` (read & write)
     - [X] `crm.objects.contacts` (read & write)
-  - ~~[ ] Create a custom object (UI or API) with:
-    - [ ] At least 3 custom properties, one of which is a string property called **"Name"**
-    - [ ] At least 3 records added to the custom object
-    - [ ] Associated with the contacts object type~~
+  - ~~[ ] Create a custom object (UI or API) with:~~
+    - ~~[ ] At least 3 custom properties, one of which is a string property called **"Name"**~~
+    - ~~[ ] At least 3 records added to the custom object~~
+    - ~~[ ] Associated with the contacts object type~~
     - **I am unable to create custom objects**
 - [X] **Step 3** — Fork the GitHub repository:
   - [X] Click Fork, rename to `jay-baum-iwh-i-practicum`, keep "main branch only" checked
