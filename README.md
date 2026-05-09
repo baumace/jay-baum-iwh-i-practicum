@@ -32,7 +32,7 @@ ___
 ### TODO
 
 - [X] **Step 1** — Review all the requirements on the practicum instructions page
-- [ ] **Step 2** — Create a new HubSpot developer test account and:
+- [X] **Step 2** — Create a new HubSpot developer test account and:
   - [X] Create a private app titled "Jay's Practicum Private App" with permissions:
     - [X] `crm.schemas.custom` (read & write)
     - [X] `crm.objects.custom` (read & write)
@@ -52,9 +52,9 @@ ___
 - [X] **Step 7** — Run `npm install`
 - [X] **Step 8** — Plan three routes in `index.js`: `GET /`, `GET /update-cobj`, `POST /update-cobj`
 - [ ] **Step 9** — Implement `GET /update-cobj`:
-  - [ ] Create `views/updates.pug`
-  - [ ] Render with page title `Update Custom Object Form | Integrating With HubSpot I Practicum`
-  - [ ] Add a "Return to the homepage" link pointing to `/`
+  - [X] Create `views/updates.pug`
+  - [X] Render with page title `Update Custom Object Form | Integrating With HubSpot I Practicum`
+  - [X] Add a "Return to the homepage" link pointing to `/`
   - [ ] Add a form with fields for each of the 3 custom properties
 - [ ] **Step 10** — Implement `POST /update-cobj`:
   - [ ] POST the form data to HubSpot to create a new CRM record
