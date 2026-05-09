@@ -49,8 +49,8 @@ ___
 - ~~[ ] **Step 5** — Add the custom object list view URL to the README: `https://app.hubspot.com/contacts/<account-id>/objects/<object-id>/views/all/list`~~
     - **I am unable to create custom object**
 - [X] **Step 6** — Create and check out `working-branch`, then make first commit: `"First commit to my Integrating With HubSpot I: Foundations practicum repository."`
-- [ ] **Step 7** — Run `npm install`
-- [ ] **Step 8** — Plan three routes in `index.js`: `GET /`, `GET /update-cobj`, `POST /update-cobj`
+- [X] **Step 7** — Run `npm install`
+- [X] **Step 8** — Plan three routes in `index.js`: `GET /`, `GET /update-cobj`, `POST /update-cobj`
 - [ ] **Step 9** — Implement `GET /update-cobj`:
   - [ ] Create `views/updates.pug`
   - [ ] Render with page title `Update Custom Object Form | Integrating With HubSpot I Practicum`
