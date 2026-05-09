@@ -51,11 +51,11 @@ ___
 - [X] **Step 6** — Create and check out `working-branch`, then make first commit: `"First commit to my Integrating With HubSpot I: Foundations practicum repository."`
 - [X] **Step 7** — Run `npm install`
 - [X] **Step 8** — Plan three routes in `index.js`: `GET /`, `GET /update-cobj`, `POST /update-cobj`
-- [ ] **Step 9** — Implement `GET /update-cobj`:
+- [X] **Step 9** — Implement `GET /update-cobj`:
   - [X] Create `views/updates.pug`
   - [X] Render with page title `Update Custom Object Form | Integrating With HubSpot I Practicum`
   - [X] Add a "Return to the homepage" link pointing to `/`
-  - [ ] Add a form with fields for each of the 3 custom properties
+  - [X] Add a form with fields for each of the 3 custom properties
 - [ ] **Step 10** — Implement `POST /update-cobj`:
   - [ ] POST the form data to HubSpot to create a new CRM record
   - [ ] Redirect to `/` after creation

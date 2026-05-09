@@ -5,10 +5,8 @@ html
     meta(name="viewport" content="width=device-width, initial-scale=1")
     link(rel="stylesheet", href="/css/style.css")
   body    
+    h1 Enter New Company Data
     .form-wrapper
-      p Name: #{companyName}
-      p City: #{companyCity}
-      p Domain Name: #{companyDomainName}
       form(method="POST")
         label(for="newName") New company name
         input(type="text" value="newName" required)
