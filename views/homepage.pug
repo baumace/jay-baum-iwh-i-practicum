@@ -1,0 +1,26 @@
+doctype html
+html 
+  head 
+    title= `${title}`
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet", href="/css/style.css")
+  body    
+    h1 Companies Table
+    a(href='/update-cobj') Add to this table
+    table.table
+      tbody
+        tr
+          th Name
+          th City
+          th Domain
+          th Age
+          th Color
+          th Status
+        each company in data
+          tr
+            td #{company.properties.name} 
+            td #{company.properties.city} 
+            td #{company.properties.domain}
+            td #{company.properties.age}
+            td #{company.properties.color}
+            td #{company.properties.activity_status}

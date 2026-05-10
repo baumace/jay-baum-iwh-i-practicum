@@ -56,3 +56,22 @@ input[type="submit"] {
     padding: .375rem 1rem;
     margin-top: 10px;
 }
+
+a {
+  margin: 1rem;
+}
+
+table {
+  margin: 1rem;
+}
+
+table th {
+  background-color: lightpink;
+  border: 1px solid black;
+  padding: 0.5rem;
+}
+
+table td {
+  border: 1px solid black;
+  padding: 0.5rem;
+}
