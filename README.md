@@ -6,7 +6,7 @@ To read the full directions, please go to the [practicum instructions](https://a
 
 **Put your HubSpot developer test account custom objects URL link here:** https://app.hubspot.com/contacts/244932010/objects/0-2/views/all/list
 
-**NOTE:** I was not able to create a custom object as my free plan did not support it. I used the companies model instead.
+**NOTE:** I was not able to create a custom object as my free plan did not support it. I used the companies model instead and added 3 custom properties onto it.
 
 ___
 ## Tips:
