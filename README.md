@@ -56,12 +56,13 @@ ___
   - [X] Render with page title `Update Custom Object Form | Integrating With HubSpot I Practicum`
   - [X] Add a "Return to the homepage" link pointing to `/`
   - [X] Add a form with fields for each of the 3 custom properties
-- [ ] **Step 10** — Implement `POST /update-cobj`:
-  - [ ] POST the form data to HubSpot to create a new CRM record
-  - [ ] Redirect to `/` after creation
+- [X] **Step 10** — Implement `POST /update-cobj`:
+  - [X] POST the form data to HubSpot to create a new CRM record
+  - [X] Redirect to `/` after creation
 - [X] **Step 11** — Implement `GET /`:
   - [X] GET all custom object records from HubSpot (include all custom property fields)
   - [X] Create `views/homepage.pug` that renders an HTML table with a column per property
   - [X] Pass the records to the template and add an "Add to this table" link at the top pointing to `/update-cobj`
-- [ ] **Step 12** — Test the app with `node index.js`, verify creating a record and seeing it on the homepage
-- [ ] **Step 13** — Re-merge `working-branch` into `main` and submit the public repo link
+- [X] **Step 12** — Test the app with `node index.js`, verify creating a record and seeing it on the homepage
+- [X] **Step 13** — Re-merge `working-branch` into `main` and submit the public repo link
+- [ ] **Step 14** — Clean up

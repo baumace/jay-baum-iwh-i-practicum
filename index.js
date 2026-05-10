@@ -22,7 +22,7 @@ const headers = {
 app.get('/', async (req, res) => {
   // TODO: Implement homepage
   console.log("Hello from homepage...");
-  const resp = await axios.get('https://api.hubapi.com/crm/v3/objects/companies?properties=name,domain,city,age,color,status', { headers });
+  const resp = await axios.get('https://api.hubapi.com/crm/v3/objects/companies?properties=name,domain,city,age,color,activity_status', { headers });
   res.render('homepage', { data: resp.data.results });
 });
 
@@ -38,9 +38,21 @@ app.get('/update-cobj', async (req, res) => {
 // TODO: ROUTE 3 - Create a new app.post route for the custom objects form to create or update your custom object data. Once executed, redirect the user to the homepage.
 
 // * Code for Route 3 goes here
-app.post('/update-cobj', () => {
+app.post('/update-cobj', async (req, res) => {
   // TODO: Implement homepage
   console.log("Hello from post update-cobj...");
+  const newCompany = {
+    properties: {
+      "name": req.body.newName,
+      "city": req.body.newCity,
+      "domain": req.body.newDomainName,
+      "age": req.body.newAge,
+      "color": req.body.newColor,
+      "activity_status": req.body.statuses
+    }
+  }
+  const resp = await axios.post('https://api.hubapi.com/crm/v3/objects/companies', newCompany, { headers });
+  res.redirect('/');
 });
 
 /** 

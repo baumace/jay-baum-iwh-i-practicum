@@ -9,18 +9,18 @@ html
     .form-wrapper
       form(method="POST")
         label(for="newName") New company name
-        input(type="text" value="newName" required)
+        input(type="text" name="newName" required)
         label(for="newCity") New company city
-        input(type="text" value="newCity" required)
+        input(type="text" name="newCity" required)
         label(for="newDomainName") New company domain name
-        input(type="text" value="newDomainName" required)
+        input(type="text" name="newDomainName" required)
         label(for="newAge") New company age
-        input(type="text" value="newAge" required)
+        input(type="text" name="newAge" required)
         label(for="newColor") New company color
-        input(type="text" value="newColor" required)
+        input(type="text" name="newColor" required)
         label(for="newStatus") New company name
         select#newStatus(name='statuses' required)
-          option(value='alive') Alive
-          option(value='deceased') Deceased
+          option(value='Alive') Alive
+          option(value='Deceased') Deceased
         input(type="submit" value="Submit")
     a(href='/') Return to the homepage
