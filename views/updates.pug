@@ -6,21 +6,21 @@ html
     link(rel="stylesheet", href="/css/style.css")
   body    
     h1 Enter New Company Data
+    a(href='/') Return to the homepage
     .form-wrapper
       form(method="POST")
-        label(for="newName") New company name
-        input(type="text" name="newName" required)
-        label(for="newCity") New company city
-        input(type="text" name="newCity" required)
-        label(for="newDomainName") New company domain name
-        input(type="text" name="newDomainName" required)
-        label(for="newAge") New company age
-        input(type="text" name="newAge" required)
-        label(for="newColor") New company color
-        input(type="text" name="newColor" required)
-        label(for="newStatus") New company name
-        select#newStatus(name='statuses' required)
+        label(for="name") Name
+        input(type="text" name="name" required)
+        label(for="city") City
+        input(type="text" name="city" required)
+        label(for="domainName") Domain Name
+        input(type="text" name="domainName" required)
+        label(for="age") Age
+        input(type="text" name="age" required)
+        label(for="color") Color
+        input(type="text" name="color" required)
+        label(for="activityStatus") Activity Status
+        select#activityStatus(name='activityStatus' required)
           option(value='Alive') Alive
           option(value='Deceased') Deceased
         input(type="submit" value="Submit")
-    a(href='/') Return to the homepage

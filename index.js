@@ -37,12 +37,12 @@ app.get('/update-cobj', async (req, res) => {
 app.post('/update-cobj', async (req, res) => {
   const update = {
     properties: {
-      "name": req.body.newName,
-      "city": req.body.newCity,
-      "domain": req.body.newDomainName,
-      "age": req.body.newAge,
-      "color": req.body.newColor,
-      "activity_status": req.body.statuses
+      "name": req.body.name,
+      "city": req.body.city,
+      "domain": req.body.domainName,
+      "age": req.body.age,
+      "color": req.body.color,
+      "activity_status": req.body.activityStatus
     }
   }
 
