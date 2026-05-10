@@ -67,4 +67,4 @@ ___
   - [X] Pass the records to the template and add an "Add to this table" link at the top pointing to `/update-cobj`
 - [X] **Step 12** — Test the app with `node index.js`, verify creating a record and seeing it on the homepage
 - [X] **Step 13** — Re-merge `working-branch` into `main` and submit the public repo link
-- [ ] **Step 14** — Clean up
+- [X] **Step 14** — Clean up
